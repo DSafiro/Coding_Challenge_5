@@ -26,3 +26,8 @@ cartItems.pop(); // Removes last item from array
 cartItems.unshift("Juice"); // Adds juice to the beginning of array
 cartItems.shift(); // Removes juice from beginning of array
 console.log(`Final Cart Items: ${cartItems}`); // Outputs final cart items
+
+// Task 4: Price Adjustments
+let prices = [100, 200, 300]; // Declares initial prices as array
+let discountedPrices = prices.map(price => price * .90); // Applies 10% discount to each price
+console.log(`Discounted Prices: ${discountedPrices}`); // Outputs discounted prices 
