@@ -61,3 +61,8 @@ function applyDiscount (price, discount) {
 }; // Declares function to apply discount
 let discountedPrice = applyDiscount(80, .85); // Declares variable by returning discounted price
 console.log(`Discounted Price: $${discountedPrice}`); // Outputs discounted price
+
+// Task 10: Loyalty Points
+const calculatePoints = purchaseAmount => purchaseAmount / 10; // Declares arrow function to calculate points by dividing purchase amount by 10
+let points = calculatePoints(700); // Declares variable by returning calculated points
+console.log(`Loyalty Points Earned: ${points}`); // Outputs calculated points
