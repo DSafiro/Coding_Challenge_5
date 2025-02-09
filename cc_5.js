@@ -36,3 +36,9 @@ console.log(`Discounted Prices: ${discountedPrices}`); // Outputs discounted pri
 let inventory = [9, 0, 78, 100, 0]; // Declares initial inventory as array
 let availableInventory = inventory.filter(stock => stock > 0); // Filters inventory to exclude zero stock
 console.log(`Available Inventory: ${availableInventory}`); // Outputs available inventory
+
+
+// Task 6: Revenue Collection
+let sales = [500, 300, 200, 400]; // Declares initial sales as array
+let totalRevenue = sales.reduce((total, sales) => total + sales,0); // Totals sales together
+console.log(`Total Revenue: $${totalRevenue}`); // Outputs total revenue
