@@ -17,3 +17,12 @@ let order = {
     }
 }; // Declares order details as an object
 order.displayOrder(); // Returns displayOrder and outputs function
+
+// Task 3: Shopping Cart
+let cartItems = ["Cheese", "Milk", "Eggs"]; // Declares initial array
+console.log(`Initial Cart Items: ${cartItems}`); // Outputs initial cart items
+cartItems.push("Steak"); // Adds steak to array
+cartItems.pop(); // Removes last item from array
+cartItems.unshift("Juice"); // Adds juice to the beginning of array
+cartItems.shift(); // Removes juice from beginning of array
+console.log(`Final Cart Items: ${cartItems}`); // Outputs final cart items
