@@ -50,7 +50,14 @@ console.log(`Customer: ${locate}`); // Outputs located customer
 
 // Task 8: Tax Calculation
 function calculateTax(amount, taxRate) {
-    return amount * taxRate
+    return amount * taxRate // Finds calculated tax by mutliplying amount by taxRate
 }; // Declares a function to calculate tax
 let tax = calculateTax(450, .15); // Declares variable by returning calculated tax
 console.log(`Calculated Tax: $${tax}`); // Outputs calculated tax
+
+// Task 9: Discount Application
+function applyDiscount (price, discount) {
+    return price * discount // Finds discounted price by multiplying price byt discount
+}; // Declares function to apply discount
+let discountedPrice = applyDiscount(80, .85); // Declares variable by returning discounted price
+console.log(`Discounted Price: $${discountedPrice}`); // Outputs discounted price
