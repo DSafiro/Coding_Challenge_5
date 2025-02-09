@@ -42,3 +42,8 @@ console.log(`Available Inventory: ${availableInventory}`); // Outputs available 
 let sales = [500, 300, 200, 400]; // Declares initial sales as array
 let totalRevenue = sales.reduce((total, sales) => total + sales,0); // Totals sales together
 console.log(`Total Revenue: $${totalRevenue}`); // Outputs total revenue
+
+// Task 7: Customer Search
+let customers = ["Alice", "Bob", "Charlie", "David"]; // Initial array of customers
+let locate = customers.find(customer => customer === "Charlie"); // Declares function that locates "Charlie"
+console.log(`Customer: ${locate}`); // Outputs located customer
