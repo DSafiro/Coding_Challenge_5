@@ -1,7 +1,7 @@
 // Task 1: Customer Profile
 let customer = {name: "John Doe", 
     age: 35, 
-    email: "johndoe@email.com"
+    email: "john.doe@email.com"
 }; // Declares customer profile as an object
 console.log(`Customer Name: ${customer.name}`); // Outputs customer name
 console.log(`Customer Age: ${customer.age}`); // Outputs customer age
@@ -31,3 +31,8 @@ console.log(`Final Cart Items: ${cartItems}`); // Outputs final cart items
 let prices = [100, 200, 300]; // Declares initial prices as array
 let discountedPrices = prices.map(price => price * .90); // Applies 10% discount to each price
 console.log(`Discounted Prices: ${discountedPrices}`); // Outputs discounted prices 
+
+// Task 5: Product Availability
+let inventory = [9, 0, 78, 100, 0]; // Declares initial inventory as array
+let availableInventory = inventory.filter(stock => stock > 0); // Filters inventory to exclude zero stock
+console.log(`Available Inventory: ${availableInventory}`); // Outputs available inventory
